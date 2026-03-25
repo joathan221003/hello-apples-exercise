@@ -22,6 +22,10 @@ async function getApplesQty() {
   }
 }
 
+app.get("/health", (req, res) => {
+  res.status(200).send("OK");
+});
+
 app.get("/", async (req, res) => {
   try {
     const applesQty = await getApplesQty();
