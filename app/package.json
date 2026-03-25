@@ -1,0 +1,13 @@
+{
+  "name": "hello-apples-app",
+  "version": "1.0.0",
+  "description": "NodeJS + MongoDB containerized app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.16.0"
+  }
+}
